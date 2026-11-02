@@ -1,0 +1,41 @@
+PlayerOps — Changelog v2.1
+
+NOVIDADES
+
+- Painel reorganizado em abas, mantendo o visual roxo escuro.
+- Trabalho Manager atualizado para atender chamadas da Transportadora LS e aceitar novos fretes automaticamente.
+- Evento Quiz Auto com respostas automáticas, intervalo seguro e novas perguntas cadastradas.
+- Sistema Necessidades na aba Extras: cuida automaticamente de comida, água, sono e banheiro.
+- Alimentação procura os itens em todas as páginas e posições do inventário e continua até 100%.
+- Área exclusiva para Tráfico de Drogas, com coleta automática, acompanhamento do tempo e movimentação próxima ao ponto.
+- Auto /caixinha atualizado para o novo formato de PayDay.
+- Comando /rec reformulado para reiniciar e reconectar com mais segurança.
+
+CORREÇÕES
+
+- Corrigidos crashes ao clicar repetidamente nas checkboxes ou alternar rapidamente entre as abas.
+- Corrigidos problemas de callbacks, tarefas em segundo plano e renderização do painel.
+- O Trabalho Manager não se desativa mais sozinho.
+- Mantida a verificação original de emprego e conta pelo /rg.
+- Corrigidos erros em botões de propriedade, materiais e serviços VIP.
+- Corrigida a detecção do PayDay e o envio automático da /caixinha.
+- Corrigido o consumo de comida e água para continuar usando novos itens até completar 100%.
+- Corrigido o uso de /mijar, incluindo a interação necessária após o comando.
+- Durante a coleta de drogas, diálogos inesperados são recusados automaticamente.
+- Melhor compatibilidade ao jogar em modo janela e ao alternar o foco com Alt+Tab.
+
+DESEMPENHO E ESTABILIDADE
+
+- As ações do jogo são processadas fora da renderização do painel, reduzindo travamentos.
+- O painel pode permanecer aberto sem interromper as automações ativadas.
+- Inventário e troca de páginas ficaram mais rápidos.
+- Menos tarefas simultâneas e melhor controle das filas de comandos.
+- Melhor recuperação após desconexões e mudanças de sessão.
+- Removidos overlays e elementos desnecessários desenhados sobre o jogo.
+
+COMPATIBILIDADE
+
+- GTA San Andreas 1.0 US
+- SA-MP 0.3.7
+- MoonLoader 0.026.5-beta
+- LuaJIT, SAMP.Lua, mimgui e ffi
